@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://static.wixstatic.com/media/b4226c_5f609ad0fe314db6ab9e2a0ea7721cc3~mv2.png/v1/fill/w_590,h_354,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/muddy%20transparent.png");
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #4CAF50;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    }  
+    nav ul {
+    list-style-type: none;
+    padding: 0;
+    }
+    nav ul li {
+    display: inline;
+    margin-right: 20px; 
+    }
+    nav ul li a {
+    text-decoration: none;
+    color: white;
+    }
+    ul li {
+    padding: 0px;
+    margin: 10px;
+    }
+    li {
+        float: left;
+    }
+    li a:hover:not(.active) {
+        background-color:#04AA6D;
+    }
+  
+.main-content {
+    
+    padding: 60px; 
+    text-align: justify;
+    border-radius: 8px;
+    background-color: lightgreen;
+    width: auto;
+    margin: 30px;
+    margin-bottom: 10%;
+    margin-top: 15%;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+  

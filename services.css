@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    background-image: url("https://static.wixstatic.com/media/b4226c_5f609ad0fe314db6ab9e2a0ea7721cc3~mv2.png/v1/fill/w_590,h_354,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/muddy%20transparent.png");
+    
+}
+.nav {
+list-style-type: none;
+margin: 0;
+padding: 0;
+background-color: #4CAF50;
+position: fixed;
+top: 0;
+width: 100%;
+overflow: hidden;
+}  
+nav ul {
+list-style-type: none;
+padding: 0;
+}
+nav ul li {
+display: inline;
+margin-right: 20px; 
+}
+nav ul li a {
+text-decoration: none;
+color: white;
+}
+ul li {
+padding: 0px;
+margin: 10px;
+}
+li {
+    float: left;
+}
+li a:hover:not(.active) {
+    background-color:#04AA6D;
+}
+
+.service {
+    margin-top: 10px;
+    margin: 30px;
+    padding: 5px 30px;
+    border-radius: 10px;
+    background-color:  lightgreen;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+
+section {
+    margin-top: 60px;
+    padding-bottom: 70px;
+}
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.separate {
+    margin-top: 10%;
+}
+
+form {
+    display: flex;
+    margin-left: 350px;
+    flex-direction: column;
+    width: 400px;
+    background-color:lightgreen;
+    border-radius: 16px;
+    padding: 1.5rem 40px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+    
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    margin-bottom: .2rem;
+    position: relative;
+  }
+  
+  label:not(:first-of-type){
+    margin-top: 1rem;
+  }
+  
+  input {
+    padding: .2rem .5rem;
+  }
+  
+  .helper-text {
+    display: none;
+    font-size: .8rem;
+    color: darkred;
+  }
+  
+  .orientacao {
+    margin-top: 1.5rem;
+    font-size: .7rem;
+  }
+  
+  button {
+    width: 100px;
+    height: 40px;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    align-self: center;
+  }
+  
+  /* ---------- Estilos dinâmicos ---------- */
+  .required-popup::after {
+    content: "*Campo obrigatório";
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #DFDFDF;
+    font-size: .65rem;
+    padding: .2rem .3rem;
+    width: auto;
+    display: block;
+    background-color: #202020;
+  }
+  
+  input.error {
+    border: solid 2px #992020;
+    background-color: #CCBBBB;
+    color: #662020;
+  }
+  
+  input.correct {
+    background-color: #BBCCBB;
+    border: solid 2px #206620;
+    color: #206620;
+  }
+  
+  .visible {
+    display: block;
+  }

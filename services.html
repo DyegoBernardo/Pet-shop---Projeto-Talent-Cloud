@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossos Serviços - Dog House Petshop</title>
+    <link rel="stylesheet" href="services.css">
+    <script src="services.js" defer></script>
+</head>
+<body>
+    <header class="nav">
+        <nav class="nav">
+            <ul>
+                <li ><a href="index.html">Home</a></li>
+                <li><a href="about.html">Sobre nós</a></li>
+                <li><a href="products.html">Produtos</a></li>
+                <li><a href="services.html">Serviços</a></li>
+                <li><a href="contact.html">Contato</a></li>
+                <li style="float:right"><a href="index.html"><img src="assets/logo.jpg" width="70" alt="Cat and Dog image"></a></li>
+              </ul>
+        </nav>
+    </header>
+    <div class="separate"></div>
+    <section class="service" id="class1">
+        <h2>Banho e Tosa</h2>
+        <p>Oferecemos serviços de banho e tosa para cães e gatos de todas as raças e tamanhos. Nossos profissionais são experientes e garantem que seu animal de estimação saia limpo, cheiroso e com um visual incrível.</p>
+    </section>
+
+    <section class="service">
+        <h2>Cuidados Veterinários</h2>
+        <p>Nossa equipe de veterinários está pronta para fornecer cuidados de saúde abrangentes para seus animais de estimação. Realizamos exames de rotina, vacinações, tratamento de doenças e aconselhamento personalizado para garantir o bem-estar do seu pet.</p>
+    </section>
+
+    <section class="service">
+        <h2>Venda de Produtos</h2>
+        <p>Além de serviços, oferecemos uma ampla variedade de produtos para animais de estimação, incluindo rações premium, brinquedos, acessórios, coleiras, e muito mais. Trabalhamos apenas com marcas de alta qualidade para garantir a satisfação do cliente.</p>
+    </section>  
+    
+    <div>
+        <form action="">
+            <h2>Agende um serviço conosco!</h2>
+            <label for="username">*Nome completo:</label>
+            <input type="text" id="username" name="username">
+            <p id="username-helper" class="helper-text">Mensagem de ajuda</p>
+        
+            <label for="email">*E-mail:</label>
+            <input type="email" id="email" name="email">
+            <p id="email-helper" class="helper-text">Mensagem de ajuda</p>
+        
+            <label for="phone">*Telefone:</label>
+            <input type="tel" id="phone" name="phone" />
+            <p id="idade-helper" class="helper-text">Mensagem de ajuda</p>
+        
+            <label for="appt">*Escolha um horário:</label>
+            <input type="time" id="appt" name="appt" min="09:00" max="18:00" required />
+            <p id="senha-helper" class="helper-text">Mensagem de ajuda</p>
+            <br><br>
+        
+            <fieldset>
+                <legend>Selecione um serviço:</legend>
+              
+                <div>
+                  <input type="radio" id="tosa" name="drone" value="huey" checked />
+                  <label for="huey">Banho & Tosa</label>
+                </div>
+              
+                <div>
+                  <input type="radio" id="dewey" name="drone" value="dewey" />
+                  <label for="dewey">Consulta veterinária</label>
+                </div>
+              </fieldset>
+            
+        
+            <button type="submit">Enviar</button>
+          </form>
+    </div>
+    <footer>
+        <p>© 2023 Dog House Petshop. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,186 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://static.wixstatic.com/media/b4226c_5f609ad0fe314db6ab9e2a0ea7721cc3~mv2.png/v1/fill/w_590,h_354,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/muddy%20transparent.png");
+}
+.nav {
+list-style-type: none;
+margin: 0;
+padding: 0;
+background-color: #4CAF50;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+}  
+nav ul {
+list-style-type: none;
+padding: 0;
+}
+
+nav ul li a {
+text-decoration: none;
+color: white;
+}
+ul li {
+padding: 0px;
+margin: 10px;
+}
+li {
+    float: left;
+}
+li a:hover:not(.active) {
+    background-color:#04AA6D;
+}
+.separate {
+    margin-top: 7%;
+    align-items: center;
+    background-color: lightgreen;
+}
+
+.main {
+    background-color: white;
+    align-items: flex-end;
+    margin-left: 30%;
+}
+.second {
+    background-color: lightgreen;
+    padding: 10px;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: thin;
+    background-color:  lightgreen;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.options{
+    display: flex;
+    gap:20px;
+    list-style: none;
+    flex:2;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+}
+
+.user{
+    flex:1;
+    display: flex;
+    list-style: none;
+    gap:4px;
+    display: flex;
+    margin-right: 40px;
+    justify-content: flex-end;
+}
+
+
+.container{
+    background: linear-gradient(180deg, white 0%, white 50%,#4caf50 0%, #4caf50 100%);
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper{
+    position: relative;
+    width: 40%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top:15px;
+    z-index: 2;
+}
+
+.bottom {
+    position: relative;
+    background-color:lightgreen;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.bottom form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    gap:10px;
+    height: 100%;
+    width: 80%;   
+    padding: 0px 20px;
+}
+
+.bottom form input{
+    border: none;
+    outline: 0;
+    padding: 10px;
+    border-radius: 20px;
+    width: 95%;
+}
+
+.bottom form .password{
+    display: flex;
+    gap:10px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.singUp {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    position: relative;
+    top: 20px;
+    width: 100%;
+}
+
+.singUp button{
+    background-color: #4caf50;
+    color:white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.singUp button i{
+    color:#4caf50;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 3px;
+
+}
